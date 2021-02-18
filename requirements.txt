@@ -1,0 +1,44 @@
+Access to the twitter api:
+To scrape for tweets, you need to connect to the twitter API. To do this you need to follow the following steps:
+1. Log in to a twitter account.
+2. Go to https://developer.twitter.com/en/docs
+3. Select the apply button and apply for a development account.
+4. Follow the account creation steps.
+5. Store API-Key and the API-secret
+6. Create an application
+7. Store the Access token and Access_secret codes
+(8. Change the API-KEY, API-secret, Access-token, Access-secret in get_all_document.py to your own codes)
+
+Babelnet Api:
+The Babelnet API key can be collected by registering here: https://babelnet.org/register
+
+Embedding models used:
+wiki-news-300d-1M.vec - can be found here: https://fasttext.cc/docs/en/english-vectors.html , we used the .vec file
+cc.nl.300.vec - can be found here:https://fasttext.cc/docs/en/crawl-vectors.html
+
+Libraries used:
+tweepy
+glob
+itertools
+pandas
+collections
+stanza
+matplotlib
+nltk
+numpy
+string
+sklearn
+gensim
+requests
+polyglot
+seaborn
+networx
+pydot
+graphviz
+scipy
+pyIcu
+pycld2
+
+Note:
+When installing polyglot on Windows the buildingwheels for pyIcu and pycld2 need to be installed manually. They can be found here https://www.lfd.uci.edu/~gohlke/pythonlibs/
+
